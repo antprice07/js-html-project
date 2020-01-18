@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stock Update</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/stocks.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/getUrlParms.js"></script>
+    <script src="js/stocks.js"></script>
+    <script src="js/stock-add.js"></script>
+</head>
+
+<body>
+    <h3>Stock Add</h3>
+    <table class="table table-sm">
+        <tbody>
+            <tr>
+                <td>Symbol</td>
+                <td><input id="symbol" type="text"></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input id="name" type="text"></td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td><input id="location" type="text"></td>
+            </tr>
+            <tr>
+                <td>Current Price of Share</td>
+                <td><input id="current" type="number"></td>
+            </tr>
+            <tr>
+                <td>Price Paid Per Share</td>
+                <td><input id="paid" type="number"></td>
+            </tr>
+            <tr>
+                <td>Number of Shares</td>
+                <td><input id="shares" type="number"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="save" class="btn btn-primary">Save</button>
+
+</body>
+
+</html>
